@@ -149,9 +149,6 @@ button {
   background-color: var(--navy-blue);
   max-width: 1440px;
   margin: 0 auto;
-}
-
-.hero-inner {
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
@@ -159,11 +156,14 @@ button {
     ),
     url(../images/people-office\ 1.webp);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
   height: 600px;
   flex-shrink: 0;
   padding: 188px 0;
+}
+
+.hero-inner {
 }
 
 .hero-title {
@@ -193,6 +193,7 @@ button {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover {
