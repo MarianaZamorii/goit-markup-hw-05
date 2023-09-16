@@ -4,7 +4,7 @@
   --navy-blue: #2e2f42;
   --green: #31d0aa;
   --slate: #434455;
-  --light-slate: #8f8e99;
+  --light-slate: #8e8f99;
   --corn-flower: #e7e9fc;
   --cloud: #f4f4fd;
   --navy-blue-modal: #2e2f42;
@@ -248,6 +248,17 @@ button {
 
 .target-list-item {
   width: calc((100% - 72px) / 4);
+}
+
+.target-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border: var(--light-slate);
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .target-title {
