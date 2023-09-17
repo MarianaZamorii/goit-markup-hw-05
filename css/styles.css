@@ -335,14 +335,6 @@ button {
   border-radius: 50%;
 }
 
-.social-item:hover {
-  background-color: var(--ocean);
-}
-
-.social-item:focus {
-  background-color: var(--ocean);
-}
-
 .social-item-link {
   display: flex;
   align-items: center;
@@ -352,6 +344,12 @@ button {
   height: 100%;
   background-color: var(--iris);
 }
+
+.social-item-link:hover,
+.social-item-link:focus {
+  background-color: var(--ocean);
+}
+
 .social-icon {
   fill: var(--cloud);
 }
